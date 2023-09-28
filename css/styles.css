@@ -1,0 +1,324 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+p{
+    color: gray;
+}
+
+/*Title Section*/
+#title{
+    background-color: coral;
+    padding: 3% 15% 5%;
+}
+.brand-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.20rem;
+
+}
+
+.nav-list{
+    padding: 0 18px;
+
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+
+.fab-icon{
+    margin-right: 8px;
+}
+
+.title-image{
+    width: 60%;
+    right: 30%;
+    left: 100px;
+    position: relative;
+    
+}
+
+/*Features*/
+
+#features{
+    padding: 7% 14%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    
+}
+
+.fa-icon{
+    color: coral;
+    margin:1rem;
+}
+
+.fa-icon:hover{
+    color: darkorange;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.feature-col{
+    padding: 5%;
+}
+
+/*Tesimonial Statement*/
+#testimonials{
+    background-color: coral;
+    text-align: center;
+    color:white;
+}
+
+.testimonial-image{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 14%;
+}
+
+/*press section*/
+#press{
+    background-color: coral;
+    text-align: center;
+    padding:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+    
+}
+
+/*pricing section*/
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.price-heading, .price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*call to action*/
+#cta{
+    background-color: coral;
+    padding: 7% 14%;
+    text-align: center;
+}
+
+.cta-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/*footer section*/
+#footer{
+    text-align: center;
+    padding: 7% 14%;
+}
+
+.foot-icon{
+    padding: 20px 10px;
+}
+
+@media (max-width: 1440px){
+    .title-quote{
+        font-size: 3rem;
+    }
+    .title-image{
+        margin-right: 10px;
+        
+    }
+    .btn-download{
+        margin-right:6px;
+
+    }
+}
+
+@media (max-width: 1024px){
+    .title-quote{
+        font-size: 3rem;
+    }
+
+    .title-image{
+        width: 250px;
+        height: auto;
+        top: 50px;
+    }
+    .btn-download{
+        margin-right:6px;
+
+    }
+}
+
+@media (max-width: 768px){
+    
+    .title-image{
+        width: 70%;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .column-one{
+        text-align: center;
+    }
+
+    .cta-title{
+        font-size: 2rem;
+    }
+
+    .price-text{
+        font-size: 2rem;
+    }
+   
+}
+
+@media (max-width: 426px){
+
+    .title-quote{
+        font-size: 2rem;
+        
+    }
+    .title-image{
+        position: relative;
+        left: 50px;
+        width: 60%;
+        margin-top: 0;
+        
+    }
+
+    .column-one{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        text-align: center;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
+    .price-heading{
+        font-size: 3rem;
+    }
+   
+}
+
+@media (max-width: 476px){
+
+    .title-quote{
+        font-size: 2rem;
+        
+    }
+    .title-image{
+        position: relative;
+        left: 50px;
+        width: 60%;
+        margin-top: 0;
+        
+    }
+
+    .column-one{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        text-align: center;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+    }
+
+    .price-heading{
+        font-size: 2rem;
+    }
+
+    .price-text{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 321px){
+
+
+    .brand-title{
+        font-size: 1.5rem;
+    }
+    .title-quote{
+        font-size: 2rem;
+        
+    }
+    .title-image{
+        position: relative;
+        left: 50px;
+        width: 60%;
+        margin-top: 0;
+        
+    }
+
+    .price_header{
+        font-size: 1rem;
+    }
+
+    .column-one{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        text-align: center;
+    }
+
+    .testimonial-text {
+        font-size: 1.5rem;
+    }
+
+    .price-heading{
+        font-size: 1.5rem;
+    }
+
+    .price-text{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 0.5rem;
+    }
+}
