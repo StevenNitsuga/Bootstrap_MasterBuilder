@@ -73,34 +73,43 @@ hr{
     color: #DDDDDD;
 }
 
+
+
+.skills-image{
+    float: center;
+    width: 10px;
+
+}
+
+.skills-text{
+    margin: 5px 30px;
+    text-align: center;
+    
+    
+}
+
 .troubleshooting_image{
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-
-}
-
-.logoprinter_image{
-    float: right;
-    width: 350px;
-    margin-left: 50px;
-
-}
-
-.skill-row{
-    margin: auto;
-    text-align: left;
-    width: 50%;
-    margin-bottom: 100px;
+    width: 20%;
+    height: auto;
 }
 
 
-
-.skill-row p {
+.skills-paragraph {
     color: #DDDDDD;
+    width: 40%; /* Set the width you desire */
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 30px;
 }
 
-.skills h2 {
+
+.skills h2{
+
+    color: #F05454;
+}
+
+.skill-set h3 {
+    text-align: center;
     margin-bottom: 80px;
     color: #F05454;
 }
@@ -219,4 +228,33 @@ hr{
 .credit{
     margin-top: 50px;
     color: #304C7A; 
+}
+
+@media (max-width: 1025px){
+    .printer{
+        display: none;
+        
+    }
+    
+    .constellationlogo{
+        display: none;
+        
+    
+    }
+
+   
+}
+
+
+@media (max-width: 425px){
+    .printer{
+        display: none;
+    }
+    
+    .constellationlogo{
+        display: none;
+    
+    }
+
+   
 }

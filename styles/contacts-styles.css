@@ -1,0 +1,20 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: rgb(218, 174, 158);
+    /* Remove align-items: center; from body, as it's not necessary here */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures that the container takes the full viewport height */
+}
+
+#title {
+    background-color: #89d21d; /* Use a suitable background color */
+    padding: 3% 15% 5%;
+}
+
